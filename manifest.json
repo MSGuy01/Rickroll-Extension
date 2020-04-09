@@ -1,0 +1,19 @@
+{
+	"manifest_version": 2,
+	"name": "Rickroll Extension",
+	"author": "MSGuy01",
+	"description": "Change every link to a rickroll",
+	"version": "1.0",
+	"browser_action": {
+		"default_popup": "popup.html",
+		"default_title": "Rickroll"
+	},
+	"content_scripts": [
+	  {
+	    "matches": [
+	      "<all_urls>"
+	    ],
+	    "js": ["content.js"]
+	  }
+	]
+}
