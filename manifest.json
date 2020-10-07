@@ -2,8 +2,8 @@
 	"manifest_version": 2,
 	"name": "Rickroll Extension",
 	"author": "MSGuy01",
-	"description": "Change every link to a rickroll",
-	"version": "1.0",
+	"description": "Change random links on every webpage to a rickroll",
+	"version": "1.1",
 	"browser_action": {
 		"default_popup": "popup.html",
 		"default_title": "Rickroll"
