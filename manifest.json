@@ -3,11 +3,20 @@
 	"name": "Rickroll Extension",
 	"author": "MSGuy01",
 	"description": "Change random links on every webpage to a rickroll",
-	"version": "1.1",
+	"version": "1.2",
+	"icons": {
+		"16": "Images/16.png",
+		"48": "Images/48.png",
+		"128": "Images/128.png"
+	},
 	"browser_action": {
 		"default_popup": "popup.html",
 		"default_title": "Rickroll"
 	},
+	"background": {
+      "scripts": ["background.js"],
+      "persistent": true
+  	},
 	"content_scripts": [
 	  {
 	    "matches": [
